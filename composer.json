@@ -1,0 +1,31 @@
+{
+    "name": "imafaz/esock",
+    "description": "lightweight php library for simple socketing.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "imafaz",
+        "esock",
+        "php socketing",
+        "socketing",
+        "simple socket"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Esock\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/imafaz/Esock",
+    "authors": [
+        {
+            "name": "Abolfazl Majidi (MrAfaz)",
+            "email": "abolfazlmajidi100@gmail.com",
+            "homepage": "https://mrafaz.com"
+        }
+    ],
+    "require": {
+        "php-64bit": ">=7.0"
+    },
+    "minimum-stability": "stable"
+}
